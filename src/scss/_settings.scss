@@ -1,0 +1,48 @@
+
+//шрифты
+@font-face {
+font-family: 'font1913b09835e902f7123ad3ac38b4cd93';
+        src:    url('https://nomail.com.ua/files/eot/1913b09835e902f7123ad3ac38b4cd93.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/1913b09835e902f7123ad3ac38b4cd93.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/1913b09835e902f7123ad3ac38b4cd93.woff2') format('woff2');
+}
+@font-face { font-family: 'MuseoSansCyrl-100';  src: local('MuseoSansCyrl-100'), url('https://nomail.com.ua/files/woff/1913b09835e902f7123ad3ac38b4cd93.woff') format('woff'); }
+
+@font-face {
+font-family: 'fontddd58151cc7372dd187a5b3765047340';
+        src:    url('https://nomail.com.ua/files/eot/ddd58151cc7372dd187a5b3765047340.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/ddd58151cc7372dd187a5b3765047340.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/ddd58151cc7372dd187a5b3765047340.woff2') format('woff2');
+}
+@font-face { font-family: 'MuseoSansCyrl-500';  src: local('MuseoSansCyrl-500'), url('https://nomail.com.ua/files/woff/ddd58151cc7372dd187a5b3765047340.woff') format('woff'); }
+
+@font-face {
+font-family: 'font73e5c73d4e80e6c080cd1bc5894cf3e8';
+        src:    url('https://nomail.com.ua/files/eot/73e5c73d4e80e6c080cd1bc5894cf3e8.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/73e5c73d4e80e6c080cd1bc5894cf3e8.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/73e5c73d4e80e6c080cd1bc5894cf3e8.woff2') format('woff2');
+}
+@font-face { font-family: 'MuseoSansCyrl-900';  src: local('MuseoSansCyrl-900'), url('https://nomail.com.ua/files/woff/73e5c73d4e80e6c080cd1bc5894cf3e8.woff') format('woff'); }
+
+
+//
+%wr {
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 0 20px;				
+	box-sizing: border-box;
+}
+$medium_size: 768px;
+$small_size: 576px;
+
+$gray_dark: #1a1a1a;
+$gray_light: #edecec;
+$gray_light2: #b7b7b7;
+$red: #bf1c22;
+$gray: #727272;
+
+
+//
+@for $i from 0 through 360 {
+	.rotate-#{$i}{transform: rotate($i + deg);}
+}

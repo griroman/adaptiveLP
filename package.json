@@ -1,0 +1,23 @@
+{
+  "name": "adaptive_lp",
+  "version": "1.0.0",
+  "description": "Freelanser Landing Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roman Grishanov",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.5",
+    "gulp": "^3.9.1",
+    "gulp-build": "^0.5.3",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "del": "^3.0.0"
+  },
+  "keywords": [
+    "landing"
+  ]
+}
